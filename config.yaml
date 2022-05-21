@@ -1,0 +1,35 @@
+baseurl: https://example.org/
+title: Portafolio Creativo
+theme: hugo-creative-portfolio-theme
+languageCode: en-en
+disqusShortname: ''
+googleAnalytics: ''
+params:
+  copyright: '&copy;2016 nombre de tu organizacion'
+  description: Descripcion del sitio
+  email: tuCorreo@yoursite.com
+  navlinks:
+    - home: yes
+      name: Inicio
+      url: portfolio/
+    - name: Sobre nosotros
+      url: about/
+    - name: Contacto
+      url: contact/
+  sidebarAbout:
+    - Soy un ilustrador creativo y diseñador gráfico con más de 10 años de
+      experiencia.
+    - Original de Bolivia, actualmente resido en La Paz.
+  social:
+    email: email@example.com
+    facebook: full page or profile url in facebook
+    # github: full profile url in github
+    gitlab: full profile url in gitlab
+    # googleplus: full profile url in googleplus
+    instagram: full profile url in instagram
+    # linkedin: full profile url in linkedin
+    # stackoverflow: full profile url in stackoverflow
+    twitter: full profile url in twitter
+    # whatsapp: wa.me service link
+    youtube: full profile url in youtube
+  style: default
